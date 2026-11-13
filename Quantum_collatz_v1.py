@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -168,15 +168,15 @@ Posebnost: Preslikavanje 6-bitnih pariteta u kvantne amplitude 64 stanja
 Fajl: loto7_4718_k90
 Validacioni gubici: 5.7171
 Test gubici: 5.7574
-NEXT: [7, 8, 11, 18, 22, 25, 31]
+NEXT: [7, x, 11, y, 22, z, 31]
 
 Fajl: loto7_4718_k90_loto_2981
 Validacioni gubici: 5.6532
 Test gubici: 5.7248
-NEXT: [8, 12, 17, 21, 25, 30, 32]
+NEXT: [8, x, 17, y, 25, z, 32]
 
 Fajl: loto7_4718_k90_loto_plus_1737
 Validacioni gubici: 5.7385
 Test gubici: 5.7471
-NEXT: [1, 2, 11, 12, 26, 32, 37]
+NEXT: [1, x, 11, y, 26, z, 37]
 """
